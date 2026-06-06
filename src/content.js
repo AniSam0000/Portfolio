@@ -49,7 +49,7 @@ export const skillGroups = [
   },
   {
     title: 'backend',
-    items: ['Node.js', 'Express.js', 'Fastify', 'FastAPI', 'React', 'Socket.IO'],
+    items: ['Node.js', 'Express.js', 'Fastify', 'FastAPI', 'React', 'Tailwind CSS', 'Socket.IO'],
   },
   {
     title: 'databases',
@@ -57,11 +57,11 @@ export const skillGroups = [
   },
   {
     title: 'tools',
-    items: ['Docker', 'Git', 'Postman', 'Vercel', 'Render', 'Cron', 'Cloudinary'],
+    items: ['Docker', 'Git', 'Postman', 'Vite', 'Vercel', 'Render', 'Cron', 'Cloudinary', 'Clerk', 'Razorpay'],
   },
   {
     title: 'ai-apis',
-    items: ['Deepgram SDK', 'Groq SDK', 'LLM Integration', 'Prompt Engineering'],
+    items: ['Deepgram SDK', 'Groq SDK', 'ClipDrop API', 'LLM Integration', 'Prompt Engineering'],
   },
   {
     title: 'concepts',
@@ -136,6 +136,20 @@ export const projects = [
     ],
     github: 'https://github.com/AniSam0000/chat-app',
     live: 'https://chat-app-ten-nu-39.vercel.app/login',
+  },
+  {
+    title: 'BG Remover',
+    tag: '[live]',
+    description:
+      'Full-stack background removal app powered by ClipDrop API. Features credit management, Clerk authentication, and Razorpay payment integration.',
+    tech: ['React', 'Vite', 'Express', 'MongoDB', 'Tailwind CSS', 'Clerk', 'Razorpay'],
+    features: [
+      'AI-powered background removal via ClipDrop API with instant results',
+      'Credit-based system with 5 free credits on signup and 3 paid plans (₹10/₹50/₹250)',
+      'Clerk authentication with webhook sync and Razorpay payment integration',
+    ],
+    github: 'https://github.com/AniSam0000/bg-remover',
+    live: 'https://bg-remover-as.vercel.app',
   },
 ]
 
